@@ -1,5 +1,52 @@
-* {
+/* * { 
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}  */
+
+body {
+  background-color: #EAEAEA;
+  /* background:#eaeaea; */
+  font-family: 'Roboto', sans-serif;
 }
+
+div {
+  background-color: #fff;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  padding: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+div h1 {
+  font-size: 28px;
+  color: #1B1B1B; 
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+ul, ol, p {
+  font-size: 16px;
+  color: #39393A;
+}
+
+figcaption {
+  font-size: 12px;
+  color: #8F8F8F;
+}
+
+figure img {
+  width: 100%;
+  height: 250px;
+  /* para nao deformar a imagem: object-fit: cover;*/
+  object-fit: cover;
+  border-radius: 10px;
+}
+
