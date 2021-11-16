@@ -10,7 +10,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-div {
+article {
   background-color: #fff;
   width: 800px;
   margin-left: auto;
@@ -21,7 +21,7 @@ div {
   margin-bottom: 1em;
 }
 
-div h1 {
+article h1 {
   font-size: 28px;
   color: #1B1B1B; 
   text-align: center;
@@ -50,3 +50,6 @@ figure img {
   border-radius: 10px;
 }
 
+footer {
+  text-align: center;
+}
